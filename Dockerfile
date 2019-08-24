@@ -7,7 +7,7 @@ RUN apk --no-cache add -X http://dl-cdn.alpinelinux.org/alpine/edge/community \
       nodejs yarn \
       python3-dev py-pip \
       elixir erlang-runtime-tools inotify-tools \
-    && gem install rails \
+    && gem install rails -v 6 \
     && pip install pipenv \
     && mix local.hex --force \
     && mix local.rebar --force \
