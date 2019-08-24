@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+echo "==>> Ruby"
+ruby --version | sed 's/ruby/Ruby/'
+rails --version
+
+echo -e "\n==>> Python"
+python --version
+echo "Pipenv $(pipenv --version | sed 's/pipenv, version //')"
+
+echo -e "\n==>> Node"
+echo "Node $(node --version)"
+echo "Yarn v$(yarn --version)"
+
+echo -e "\n==>> Elixir"
+elixir --version | sed '/^$/d'
+mix phx.new --version

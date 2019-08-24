@@ -1,0 +1,16 @@
+==>> Ruby
+Ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux-musl]
+Rails 5.2.3
+
+==>> Python
+Python 2.7.16
+Pipenv 2018.11.26
+
+==>> Node
+Node v10.16.0
+Yarn v1.17.3
+
+==>> Elixir
+Erlang/OTP 22 [erts-10.4.4] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe]
+Elixir 1.9.1 (compiled with Erlang/OTP 22)
+Phoenix v1.4.9
